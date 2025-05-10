@@ -102,6 +102,36 @@ sudo apt-get install python3-spidev
 - All Python scripts and HTML/JS visualizations were developed with assistance from **ChatGPT**.
 - Font used: [Orbitron](https://fonts.google.com/specimen/Orbitron)
 
+## ChatGPT Promts
+Audio Capture & Processing (Raspberry Pi):
+	“Write a script to record audio from MCP3008 on the Pi and save as WAV.”
+	“Normalize and scale ADC values for audio.”
+	“Why does the recording sound too fast or off-pitch?”
+	“Send the recording to the PC using sockets.”
+
+Machine Learning:
+	“Train a note classifier using synthetic and real data.”
+	“Extract features like MFCC, chroma, and spectral contrast.”
+	“Why is the model always predicting A4?”
+	“Retrain using only real data from recordings.”
+
+Batch Recording:
+	“Create a script to batch record 5 samples per note, auto-naming them.”
+	“Organize recordings into folders like real_data_v2/C4/.”
+	“Restart the batch process and overwrite old recordings.”
+
+Inference & Server:
+	“Build a socket server to receive files and run classification.”
+	“Save incoming files as received_note.wav for real-time use.”
+	“Make a second server script just for batch mode.”
+
+Visualization:
+	“Visualize predictions using p5.js with animated, colorful shapes.”
+	“Link the visual to read the prediction from note.txt.”
+
+Documentation:
+	“Write a final report and README with all instructions.”
+	“Generate FFT and MFCC plots to include in the writeup.”
 ---
 
 ## 📁 Notes
