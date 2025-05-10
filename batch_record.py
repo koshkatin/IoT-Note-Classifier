@@ -1,3 +1,8 @@
+# Script created with guidance from ChatGPT (OpenAI, 2025).
+# Portions of the code were co-developed through interactive 
+# sessions with ChatGPT to assist in audio processing, visualization, 
+# and classification tasks.
+
 import os
 import time
 import subprocess

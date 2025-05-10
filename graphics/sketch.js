@@ -13,7 +13,7 @@ let colors = {
 };
 
 function preload() {
-  orbitron = loadFont('/visual/Orbitron-VariableFont_wght.ttf');
+  orbitron = loadFont('Orbitron-VariableFont_wght.ttf'); // Use relative path
 }
 
 function setup() {
@@ -47,7 +47,7 @@ function draw() {
 }
 
 function fetchNote() {
-    fetch("/visual/note.txt?nocache=" + new Date().getTime())
+    fetch("note.txt?nocache=" + new Date().getTime())
       .then(res => res.text())
       .then(text => {
         let newNote = text.trim();
